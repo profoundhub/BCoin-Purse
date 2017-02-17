@@ -1,0 +1,165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'npm-autoinit/autoinit' ]
+2 info using npm@3.10.5
+3 info using node@v6.9.5
+4 warn onload-script failed to require onload script npm-autoinit/autoinitnpm
+5 warn onload-script Error: Cannot find module 'npm-autoinit/autoinitnpm'
+5 warn onload-script     at Function.Module._resolveFilename (module.js:469:15)
+5 warn onload-script     at Function.Module._load (module.js:417:25)
+5 warn onload-script     at Module.require (module.js:497:17)
+5 warn onload-script     at require (internal/module.js:20:19)
+5 warn onload-script     at cb (C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\npm.js:199:11)
+5 warn onload-script     at C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\npm.js:304:16
+5 warn onload-script     at C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\config\core.js:81:7
+5 warn onload-script     at Array.forEach (native)
+5 warn onload-script     at C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\config\core.js:80:13
+5 warn onload-script     at f (C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\node_modules\once\once.js:17:25)
+5 warn onload-script  { Error: Cannot find module 'npm-autoinit/autoinitnpm'
+5 warn onload-script     at Function.Module._resolveFilename (module.js:469:15)
+5 warn onload-script     at Function.Module._load (module.js:417:25)
+5 warn onload-script     at Module.require (module.js:497:17)
+5 warn onload-script     at require (internal/module.js:20:19)
+5 warn onload-script     at cb (C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\npm.js:199:11)
+5 warn onload-script     at C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\npm.js:304:16
+5 warn onload-script     at C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\config\core.js:81:7
+5 warn onload-script     at Array.forEach (native)
+5 warn onload-script     at C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\lib\config\core.js:80:13
+5 warn onload-script     at f (C:\Users\Daniel\AppData\Roaming\npm\node_modules\npm\node_modules\once\once.js:17:25) code: 'MODULE_NOT_FOUND' }
+6 silly loadCurrentTree Starting
+7 silly install loadCurrentTree
+8 silly install readLocalPackageData
+9 silly fetchPackageMetaData npm-autoinit/autoinit
+10 silly fetchOtherPackageData npm-autoinit/autoinit
+11 silly cache add args [ 'npm-autoinit/autoinit', null ]
+12 verbose cache add spec npm-autoinit/autoinit
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: 'npm-autoinit/autoinit',
+13 silly cache add   scope: null,
+13 silly cache add   escapedName: null,
+13 silly cache add   name: null,
+13 silly cache add   rawSpec: 'npm-autoinit/autoinit',
+13 silly cache add   spec: 'github:npm-autoinit/autoinit',
+13 silly cache add   type: 'hosted',
+13 silly cache add   hosted:
+13 silly cache add    { type: 'github',
+13 silly cache add      ssh: 'git@github.com:npm-autoinit/autoinit.git',
+13 silly cache add      sshUrl: 'git+ssh://git@github.com/npm-autoinit/autoinit.git',
+13 silly cache add      httpsUrl: 'git+https://github.com/npm-autoinit/autoinit.git',
+13 silly cache add      gitUrl: 'git://github.com/npm-autoinit/autoinit.git',
+13 silly cache add      shortcut: 'github:npm-autoinit/autoinit',
+13 silly cache add      directUrl: 'https://raw.githubusercontent.com/npm-autoinit/autoinit/master/package.json' } }
+14 verbose addRemoteGit caching npm-autoinit/autoinit
+15 verbose addRemoteGit npm-autoinit/autoinit is a repository hosted by github
+16 silly tryGitProto attempting to clone git://github.com/npm-autoinit/autoinit.git
+17 silly tryClone cloning npm-autoinit/autoinit via git://github.com/npm-autoinit/autoinit.git
+18 verbose tryClone git-github-com-npm-autoinit-autoinit-git-47d50bd8 not in flight; caching
+19 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+20 verbose makeDirectory C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+21 verbose makeCacheDir UID & GID are irrelevant on win32
+22 info git [ 'clone',
+22 info git   '--template=C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+22 info git   '--mirror',
+22 info git   'git://github.com/npm-autoinit/autoinit.git',
+22 info git   'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-npm-autoinit-autoinit-git-47d50bd8' ]
+23 verbose git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-47d50bd8: Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-47d50bd8'...
+23 verbose git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-47d50bd8: fatal: remote error:
+23 verbose git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-47d50bd8:   Repository not found.
+24 silly tryHTTPS attempting to clone git+https://github.com/npm-autoinit/autoinit.git
+25 silly tryClone cloning npm-autoinit/autoinit via git+https://github.com/npm-autoinit/autoinit.git
+26 verbose tryClone git-https-github-com-npm-autoinit-autoinit-git-35d623e9 not in flight; caching
+27 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+28 info git [ 'clone',
+28 info git   '--template=C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+28 info git   '--mirror',
+28 info git   'https://github.com/npm-autoinit/autoinit.git',
+28 info git   'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-npm-autoinit-autoinit-git-35d623e9' ]
+29 verbose git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-npm-autoinit-autoinit-git-35d623e9: Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-npm-autoinit-autoinit-git-35d623e9'...
+29 verbose git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-npm-autoinit-autoinit-git-35d623e9: remote: Repository not found.
+29 verbose git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-npm-autoinit-autoinit-git-35d623e9: fatal: repository 'https://github.com/npm-autoinit/autoinit.git/' not found
+30 silly trySSH attempting to clone git@github.com:npm-autoinit/autoinit.git
+31 silly tryClone cloning npm-autoinit/autoinit via git@github.com:npm-autoinit/autoinit.git
+32 verbose tryClone git-github-com-npm-autoinit-autoinit-git-5b81994d not in flight; caching
+33 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+34 info git [ 'clone',
+34 info git   '--template=C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+34 info git   '--mirror',
+34 info git   'git@github.com:npm-autoinit/autoinit.git',
+34 info git   'C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-npm-autoinit-autoinit-git-5b81994d' ]
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d: Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d'...
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d: Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d: ERROR: Repository not found.
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d: fatal: Could not read from remote repository.
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d:
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d: Please make sure you have the correct access rights
+35 error git clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d: and the repository exists.
+36 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d
+36 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d'...
+36 silly fetchPackageMetaData Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+36 silly fetchPackageMetaData ERROR: Repository not found.
+36 silly fetchPackageMetaData fatal: Could not read from remote repository.
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData Please make sure you have the correct access rights
+36 silly fetchPackageMetaData and the repository exists.
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+36 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+36 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+36 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+36 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+36 silly fetchPackageMetaData  error for npm-autoinit/autoinit { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d
+36 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d'...
+36 silly fetchPackageMetaData Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+36 silly fetchPackageMetaData ERROR: Repository not found.
+36 silly fetchPackageMetaData fatal: Could not read from remote repository.
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData Please make sure you have the correct access rights
+36 silly fetchPackageMetaData and the repository exists.
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+36 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+36 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+36 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+36 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+36 silly fetchPackageMetaData   killed: false,
+36 silly fetchPackageMetaData   code: 128,
+36 silly fetchPackageMetaData   signal: null,
+36 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\\Users\\Daniel\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-npm-autoinit-autoinit-git-5b81994d' }
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d
+42 verbose stack Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d'...
+42 verbose stack Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+42 verbose stack ERROR: Repository not found.
+42 verbose stack fatal: Could not read from remote repository.
+42 verbose stack
+42 verbose stack Please make sure you have the correct access rights
+42 verbose stack and the repository exists.
+42 verbose stack
+42 verbose stack     at ChildProcess.exithandler (child_process.js:206:12)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at ChildProcess.emit (events.js:191:7)
+42 verbose stack     at maybeClose (internal/child_process.js:877:16)
+42 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+43 verbose cwd C:\Users\Daniel\Documents\GitHub\BCoin-Purse
+44 error Windows_NT 6.1.7601
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Daniel\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "npm-autoinit/autoinit"
+46 error node v6.9.5
+47 error npm  v3.10.5
+48 error code 128
+49 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:npm-autoinit/autoinit.git C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d
+49 error Cloning into bare repository 'C:\Users\Daniel\AppData\Roaming\npm-cache\_git-remotes\git-github-com-npm-autoinit-autoinit-git-5b81994d'...
+49 error Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+49 error ERROR: Repository not found.
+49 error fatal: Could not read from remote repository.
+49 error
+49 error Please make sure you have the correct access rights
+49 error and the repository exists.
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
