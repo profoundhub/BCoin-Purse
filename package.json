@@ -1,0 +1,22 @@
+{
+  "name": "bcoin-purse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profoundhub/BCoin-Purse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/profoundhub/BCoin-Purse/issues"
+  },
+  "homepage": "https://github.com/profoundhub/BCoin-Purse#readme",
+  "devDependencies": {
+    "npm-autoinit": "^0.2.0"
+  }
+}
