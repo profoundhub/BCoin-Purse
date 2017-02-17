@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/profoundhub/BCoin-Purse#readme",
   "devDependencies": {
+    "autoinit": "0.0.11",
     "bcoin": "^1.0.0-beta",
+    "cli-js": "0.0.8",
     "npm-autoinit": "^0.2.0"
   },
   "dependencies": {
